@@ -10,7 +10,7 @@ const nextConfig: NextConfig = {
         pathname: "/images/**",
       },
       {
-        protocol: "http",
+        protocol: "https",
         hostname: "three-nextjs-express.vercel.app",
         pathname: "/images/**",
       },
