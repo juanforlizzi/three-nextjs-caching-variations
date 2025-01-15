@@ -9,6 +9,11 @@ const nextConfig: NextConfig = {
         port: "8080",
         pathname: "/images/**",
       },
+      {
+        protocol: "http",
+        hostname: "three-nextjs-express.vercel.app",
+        pathname: "/images/**",
+      },
     ],
   },
 };
