@@ -25,6 +25,10 @@ export default async function ProductPage({
 
   return (
     <div>
+      <h1 className="text-3xl font-bold mb-4">
+        <Link href="/">Home</Link>
+      </h1>
+      
       <h2 className="text-3xl font-bold mb-4">{product.data.name}</h2>
 
       <div className="mb-4 text-2xl font-bold text-destructive">
