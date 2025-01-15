@@ -1,6 +1,6 @@
 import { unstable_cacheLife as cacheLife } from "next/cache";
 
-export const API_URL = "http://localhost:8080";
+export const API_URL = "https://three-nextjs-express.vercel.app";
 
 // Should be cached for 1 hour
 export const getProducts = async (): Promise<{
